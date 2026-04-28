@@ -1,6 +1,5 @@
 package org.example.account_manager.dto;
 
-import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,24 +7,22 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * A MainUser DTO class that's used
- * for interacting with the frontend for
- * the main user
+ * A Profile DTO class used for interacting
+ * with the frontend for the profile
  */
-@Getter
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MainUserDto {
-    @Nullable
-    private Long  id;
+public class ProfileDto {
 
     @NotNull
-    private String email;
+    String profileName;
 
     @NotNull
-    private String username;
+    String username;
 
     @NotNull
-    private String password;
+    String password;
+
 }
