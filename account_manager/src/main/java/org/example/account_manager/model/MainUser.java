@@ -13,6 +13,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 
+/**
+ * Model class for the MainUser entity
+ */
 @Entity
 @Getter
 @Setter

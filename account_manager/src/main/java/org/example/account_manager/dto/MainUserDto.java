@@ -7,6 +7,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * A MainUser DTO class that's used
+ * for interacting with the frontend for
+ * the main user
+ */
 @Getter
 @Setter
 @AllArgsConstructor
